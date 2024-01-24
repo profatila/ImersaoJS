@@ -1,0 +1,8 @@
+Mais uma API ótima
+
+API sobre tecnologias de desenvolvimento
+https://github.com/gitmvfs/api-tecnologias
+
+MERN
+https://github.com/connoro7/exportdefault.shop
+
