@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Sistema de Notas</title>
+</head>
+<body>
+    <h1 class="titulo1">Sistema de notas</h1>
+    <p class="texto pop">Consulte os dados e resultados de métodos avaliativos. Introduza identificação do aluno e suas notas de 0 a 100 para receber <span>média final</span>, <span>conceito</span> correspondente, <span>situação</span> do aluno e o bimestre com a <span>maior</span> e <span>menor nota</span>.</p>
+    
+    <input  class="entrada" id="identificacao" type="number" placeholder="N° de identificação">
+    <input  class="entrada" id="nota1"         type="number" placeholder="Nota do 1° bimestre">
+    <input  class="entrada" id="nota2"         type="number" placeholder="Nota do 2° bimestre">
+    <input  class="entrada" id="nota3"         type="number" placeholder="Nota do 3° bimestre">
+    <button class="entrada" onclick="calcular()">Confirmar</button>
+    
+    <div id="output">
+        <p id="out_ident"    class="pop"></p>
+        <p id="out_notas"    class="pop"></p>
+        <p id="out_maior"    class="pop"></p>
+        <p id="out_menor"    class="pop"></p>
+        <p id="out_media"    class="pop"></p>
+        <p id="out_conceito" class="pop"></p>
+        <p id="out_situacao" class="pop"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
