@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Notas</title>
+    <!-- Objetivo: Criar um sistema onde você possa calcular as médias finais de um aluno específico 
+         podendo salvar este arquivo e resetar os dados colocados sem recarregar o site. 
+         Posteriormente, gostaria de personalizar a quantidade de alunos.
+         Desejo conseguir associar os dados como o nome do aluno às notas
+         Como:
+         "Média Final do aluno <nome> : 70"                                    Data de Ínicio: 31/01 -->
+</head>
+<body>
+    <!--      descrição do projeto       -->
+    <h1>Bem-vindo ao Sistema de Notas!!</h1>
+    <p> Descrição: 
+        <br> Para usufruirmos de um sistema CRUD, 
+        <br> teremos o input de notas bimestrais e faltas de 5 alunos, 
+        <br> assim computando o resultado final e calculando a média total dos mesmos.
+    </p>
+
+    <form>
+        <!--      informações do aluno       -->
+        <div id="descricao_aluno">
+            <br>
+            <p>Nome do Aluno:      </p>
+            <input type="text" id="input_nome_aluno"      placeholder="Nome Aluno"      onblur="function_text1()">
+
+            <br>
+            <p>Unidade Curricular: </p>
+            <input type="text" id="input_UC_aluno"        placeholder="Matéria Escolar" onblur="function_text2()">
+
+            <br>
+            <p>Professor:          </p>
+            <input type="text" id="input_professor_aluno" placeholder="Professor"       onblur="function_text3()">
+        </div>
+        
+        <!--        entrada das notas        -->
+        <div id="input_notas_all">
+            <br>
+            <p>Nota do Primeiro Bimestre*: </p>
+            <input type="number" id="input_nota_1" placeholder="0/100" min="1" max="100" required>
+            
+            <br>
+            <p>Nota do Segundo Bimestre*:  </p>
+            <input type="number" id="input_nota_2" placeholder="0/100" min="1" max="100" required>
+            
+            <br>
+            <p>Nota do Terceiro Bimestre*: </p>
+            <input type="number" id="input_nota_3" placeholder="0/100" min="1" max="100" required>
+
+            <br>
+            <p>Nota do Quarto Bimestre*:   </p>
+            <input type="number" id="input_nota_4" placeholder="0/100" min="1" max="100" required onblur="function_soma()">
+        </div>
+        
+        <!--     saída dos cálculos finais   -->
+        <div id="output_resultado">
+            <br>
+            <p>O Resultado Final do Aluno(a):</p>
+            <p id="output_nome_aluno"></p>
+            
+            <br>
+            <p>Média Final: </p>
+            <output type="number" id="output_media"></output>
+
+            <br>
+            <p>Bimestre com a Maior Nota: </p>
+            <output type="text" id="output_bim_maior"></output>
+
+            <br>
+            <p>Bimestre com a Menor Nota: </p>
+            <output type="text" id="output_bim_menor"></output>
+            
+            <br>
+            <p>Resultado Final:   </p>
+            <output type="text"   id="output_final"></output>
+        </div>
+
+        <br>
+        <input type="button" id="button_download" value="Em Breve!" download>
+        <input type="reset" id="button_reset" value="Resetar">
+
+    </form>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
