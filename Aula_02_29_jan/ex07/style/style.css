@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 99%;
+}
+
+/* Conteiner da Consulta de Alunos  */
+.dados{
+    width: 20%;
+    display: grid;
+    margin: 5vh auto;
+    padding: 2vh 4vh;
+    border-radius: 15px;
+    background-color: rgba(59, 59, 59,0.6);
+    color: white;
+}
+/* Título do conteiner  */
+.dados h1{
+    width: max-content;
+    font-weight: bold;
+    font-size: x-large;
+    margin: 4vh auto;
+}
+
+/* Conteiner de campos  */
+.dados-in{
+    width: max-content;
+    margin: 2vh auto;
+    display: grid;
+}
+/* Campo de inserir números  */
+.dados-in input[type="number"]{
+    width: 85%;
+    margin: 1vh auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 1);
+    padding: 1vh 2vh;
+    outline: none;
+    border: none;
+    color: grey;
+}
+/* Animação do campo  */
+.dados-in input[type="number"]:focus{
+    transition: 500ms;
+    box-shadow: 0px 0px 7px 1px rgba(158, 158, 158, 0.3);
+}
+
+/* Estilo Botão  */
+.btn{
+    width: 70%;
+    margin: 3vh auto;
+    font-weight: 800;
+    background-color: black;
+    padding: 2vh 6vh;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: white;   
+}
+/* Animação Botão   */
+.btn:hover{
+    transition: 2s;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+/* Conteiner do Status  */
+.res{
+    color: white;
+    display: none;
+    grid-template-columns: 100%;
+    justify-content: center;
+    padding: 2vh 4vh;
+    margin: 0 auto;
+    width: max-content;
+    gap: 15px;
+
+}
+/* Título do Status  */
+.res h1{
+    font-size: x-larger;
+    width: max-content;
+    margin: 0;
+}
+/* Subtítulo do Status  */
+.res h2{
+    font-size: large;
+    width: max-content;
+    margin: 0;
+}
+/* Conteiner dentro do Status  */
+.res div{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: max-content;
+    width: max-content;
+}

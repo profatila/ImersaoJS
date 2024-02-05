@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 07</title>
+    <link rel="stylesheet" href="style/style.css" />
+</head>
+
+<body>
+    <!-- Conteiner da Consulta  -->
+    <div class="dados">
+        <!-- Título da consulta  -->
+        <h1>Consulte um Aluno</h1>
+
+        <!-- Conteiner de Campos para inserir números -->
+        <div class="dados-in">
+            <input type="number" placeholder="ID do Aluno" id="id" />
+            <input type="number" placeholder="Nota 1o Bimestre" id="n1" />
+            <input type="number" placeholder="Nota 2o Bimestre" id="n2" />
+            <input type="number" placeholder="Nota 3o Bimestre" id="n3" />
+        </div>
+
+        <!-- Botão para calcular o status do Aluno  -->
+        <button onclick="Status()" class="btn">Consultar Informações</button>
+
+        <!-- Conteiner com retorno do status do Aluno   -->
+        <div id="res" class="res">
+            <!-- Título do Conteiner  -->
+            <h1>Status do Aluno</h1>
+
+            <!-- Status do Aluno  -->
+            <h2 id="mf-res"></h2>
+            <h2 id="conceito-res"></h2>
+            <h2 id="maior-res"></h2>
+            <h2 id="menor-res"></h2>
+            <h2>Status: <span id="status-res"></span></h2>
+        </div>
+    </div>
+    <script src="js/script.js" onload=""></script>
+</body>
+
+</html>
