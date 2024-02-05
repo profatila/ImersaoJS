@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Exercicio 7</title>
+</head>
+<body>
+	<header>
+		<h1>Calculo de Notas</h1>
+	</header>
+	<main>
+		<h3>Boletim</h3>
+		<p>Insira o nome do(a) aluno(a):</p>
+		<input class="inputNome" id="setNome" type="text" placeholder="Nome do(a) Aluno(a): ">
+		<br>
+		<p>Insira as notas</p>
+		<input class="inputNota" id="setNota1" type="number" placeholder="1º Bimestre: ">
+		<input class="inputNota" id="setNota2" type="number" placeholder="2º Bimestre: ">
+		<input class="inputNota" id="setNota3" type="number" placeholder="3º Bimestre: ">
+		<br>
+		<input class="btnCad" id="btnCad" type="button" value="calcular" onclick="calcular()">
+		<br>
+		<div class="secaoLista">
+			<ul>
+				<p>Nome:</p>
+				<li id="getNome"> - </li>
+				<p>1º Bimestre:</p>
+				<li id="getNota1"> - </li>
+				<p>2º Bimestre:</p>
+				<li id="getNota2"> - </li>
+				<p>3º Bimestre:</p>
+				<li id="getNota3"> - </li>
+			</ul>
+			<br>
+			<ul>
+				<p>Bimestre com a maior nota:</p>
+				<li id="maiorBim"> - </li>
+				<p>Bimestre com a menor nota:</p>
+				<li id="menorBim"> - </li>
+			</ul>
+			<br>
+			<ul>
+				<p>Média final:</p>
+				<li id="mediaFinal"> - </li>
+			</ul>
+			<br>
+			<ul>
+				<p>Conceito:</p>
+				<li id="conceito"> - </li>
+				<p>Situação:</p>
+				<li id="situacao"> - </li>
+			</ul>
+			<br>	
+		</div>
+	</main>
+	<script src="js/script.js"></script>
+</body>
+</html>
