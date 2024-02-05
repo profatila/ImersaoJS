@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+}
+input{
+    text-align: center;
+    border-radius: 4px;
+    padding-right: 16px;
+}
+
+button{
+    border-radius: 4px;
+    padding: 8px;
+}
