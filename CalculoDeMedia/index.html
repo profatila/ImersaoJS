@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Bimestral</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="alinhamento">
+      <h2>Calculo de Media</h2>
+
+      <div class="imputlist">
+        <input type="text" id="nome" placeholder="digite o nome do aluno" />
+        <input type="text" id="nota1" placeholder="digite a primeira nota" />
+        <input type="text" id="nota2" placeholder="digite a segunda nota" />
+        <input type="text" id="nota3" placeholder="digite a terceira nota" />
+        <div class="botoes">
+          <button onclick="media()">Calcular</button>
+          <button onclick="limpar()">Limpar</button>
+        </div>
+      </div>
+
+      <script src="script.js"></script>
+
+      <div class="tabela">
+        <p>Média do Aluno:</p>
+
+        <p id="error"></p>
+
+        <div class="elementos">
+          <p>Nome:</p>
+          <p id="nomes"></p>
+        </div>
+
+        <div class="elementos">
+          <p>ID:</p>
+          <p id="id"></p>
+        </div>
+
+        <div class="elementos">
+          <p>Maior Nota:</p>
+          <p id="maior"></p>
+        </div>
+
+        <div class="elementos">
+          <p>Menor Nota:</p>
+          <p id="menor"></p>
+        </div>
+
+        <div class="elementos">
+          <p>Média final:</p>
+          <p id="resultado"></p>
+        </div>
+
+        <div class="elementos">
+          <p>Situação:</p>
+          <p id="situacao"></p>
+        </div>
+
+        <div class="elementos">
+          <p>Conceito:</p>
+          <p id="conceito"></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

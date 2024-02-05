@@ -1,0 +1,71 @@
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  background-color: rgb(31, 31, 31);
+  color: white;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+.alinhamento {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.imputlist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+input {
+  padding: 5px;
+  background-color: #fd4040;
+  border: 2px solid #ff0000;
+  color: white;
+  border-radius: 10px;
+  outline: none;
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.botoes {
+  display: flex;
+  gap: 20px;
+}
+
+button {
+  padding: 10px;
+  background-color: #fd4040;
+  border: 2px solid #ff0000;
+  color: white;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.tabela {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+#error {
+  font-weight: bold;
+}
+
+.elementos {
+  display: flex;
+  gap: 20px;
+}
