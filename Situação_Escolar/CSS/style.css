@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: beige;
+}
+
+#titulo{
+    margin: 40px 40px 40px 510px;
+}
+
+#caixas {
+    margin-left: 400px;
+}
+
+body h4{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+body input{
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+body input:focus::-webkit-input-placeholder {
+    color: transparent;
+ }
+
+body button{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(194, 8, 8);
+}
+
+body button:hover {
+    cursor: pointer;
+    background-color: darkred;
+}
