@@ -1,0 +1,74 @@
+Aula04_05_Fev_2024
+
+Imersão Javascript
+24/01 a 28/02
+36 horas
+
+1. Conteúdo desta imersão:
+  1.1. Variáveis;               Ok
+  1.2. Tipos de dados;          Ok
+  1.3. Operadores;              Ok
+  1.4. Estruturas de decisão;   Ok
+  1.5. Estruturas de repetição; Ok
+  1.6. Array;
+  1.7. Métodos:
+     1.7.1. map();              Ok
+     1.7.2. filter();           Implementar!
+     1.7.3. reduce().           Implementar!
+
+Objetivos desta aula:
+
+1. Vamos implementar a página sobre:
+    {} ou [] para criar um array?
+    página dica.html
+
+2. Implementar as páginas que estão faltando para os métodos filter() e reduce()
+Observar os modelos das páginas:
+    map() - Exemplo 01 e;
+    map() - Exemplo 02.
+     
+Individual
+Entregar: Teams > Imersão Javascript > Páginas filter e reduce
+Data: 07/02
+
+3. Seminário - fetch() API
+
+1. O que é API?
+2. Quem utiliza/Sites que utilizam - Exemplos;
+3. O que é fetch API;
+4. Exemplos de fetch API;
+5. Requisições HTTP:
+   5.1. O que são?
+   5.2. Sintaxe;
+   5.3. Métodos de requisição HTTP
+   5.4. Exemplos de métodos HTTP (GET, PUT, POST e DELETE);
+6. Exemplos de APIs mocadas;
+7. Exemplos de APIs públicas;
+8. Mocando dados para consumo via API;
+9. Referências.
+
+Duplas
+Entregar: Teams > Imersão Javascript > fetch API
+Data: 16/02
+Será sorteada ma dupla para apresentar.
+
+
+*****************************
+CRUD - Operações de banco de dados
+Exemplo: Ecommerce de produtos de informática
+Create - Inserir
+Read   - Ler
+Update - Atualizar
+Delete - Apagar
+
+Verbos HTTP correspondentes
+Create - Inserir    - post
+Read   - Ler        - get
+Update - Atualizar  - put
+Delete - Apagar     - delete
+
+Instruções SQL correspondentes
+Create - Inserir    - post    - Insert into
+Read   - Ler        - get     - Select
+Update - Atualizar  - put     - Update
+Delete - Apagar     - delete  - Delet

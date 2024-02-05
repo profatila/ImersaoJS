@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diferença Entre {} e [] para criar objetos</title>
+    <link loading="lazy" rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <pre>
+        var cliente = {
+            usuario01: {
+                id: 1,
+                nome: "José",
+                idade: "18",
+                uf: "SP"
+            },
+            usuario02: {
+                id: 2,
+                nome: "Maria",
+                idade: "19",
+                uf: "SC"
+            }
+        }        
+    </pre>
+
+    <h2>
+      Você consegue acessar a informação dentro do objeto chamando
+      hierarquicamente variáveis dentro dele
+    </h2>
+    <pre>
+        console.log(cliente.usuario01.nome)
+        // Retorna o nome do usuario01
+        
+        console.log(cliente.usuario02.id)
+        // Retorna o id do usuario02
+    </pre>
+
+    <img src="" alt="console03"><br>
+    <img src="" alt="console04">
+  </body>
+</html>

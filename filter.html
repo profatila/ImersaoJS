@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exemplo filter()</title>
+    <link loading="lazy" rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>Método filter()</h1>
+    <ul>
+      <li>
+        O método cria uma nova matriz preenchida com elementos que passam em um
+        teste fornecido por uma função.
+      </li>
+      <li>O método não executa a função para elementos vazios.</li>
+      <li>O método não altera a matriz original.</li>
+    </ul>
+    <b> Objetivo(s): <br /> </b>
+    <p>Criar um Array apenas com os maiores de idade.</p>
+    <p>
+      Executando Método filter() com a função de callback para verificar se é
+      maior de idade
+    </p>
+    <pre>
+    const idades = [32, 33, 16, 40];
+    const resultado = idades.filter(checkAdult);
+
+    function checkAdult(idade) {
+        return idade >= 18;
+    }    
+    </pre>
+    <p>
+      O Array inicial segue com os mesmo valores, apenas a variavel resultado
+      foi filtrada:
+    </p>
+    <pre>
+    idades = [32, 33, 16, 40]
+    resultado = [32,33,40]
+    </pre>
+    <p class="res"></p>
+    <script src="js/filter.js"></script>
+  </body>
+</html>

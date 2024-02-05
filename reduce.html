@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exemplo reduce()</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>Metódo reduce()</h1>
+
+    <ul>
+      <li>O método executa uma função redutora para o elemento de matriz.</li>
+      <li>Retorna um único valor: o resultado acumulado da função.</li>
+      <li>Não executa a função para elementos de matriz vazios.</li>
+      <li>Não altera a matriz original.</li>
+    </ul>
+    <b> Objetivo(s): </b>
+    <p>Subtrair Números em uma matriz:</p>
+    <pre>
+    const numeros = [175, 50, 25];
+
+    document.getElementById("demo").innerHTML = numeros.reduce(myFunc);
+
+    function funSub(total, num) {
+    return total - num;
+    }
+    </pre>
+
+    <p>
+        Valor da Subtração é : <span id="res"></span>
+    </p>
+    <script src="js/reduce.js"></script>
+  </body>
+</html>
