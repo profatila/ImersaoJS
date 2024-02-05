@@ -3,8 +3,8 @@ Calcule o status de um Aluno inserindo o id do aluno e as notas de 3 bimestres p
 
 Insira os dados no seguinte formulário:
 
-<img src="/img/front-end-res.png" alt="front-end.png">
+<img src="/img/front-end.png" alt="formulário">
 
 Exibindo o resultado
 
-<img src="/img/front-end-res.png" alt="front-end-res.png">
+<img src="/img/front-end-res.png" alt="resposta do formulário">
