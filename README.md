@@ -9,7 +9,7 @@ O exercício consistiu em desenvolver um aplicativo web que leia o número de id
 - JavaScript
 - HTML
 
-## Contribuição:
+## Contribuiçãonb -
 Contribuições são bem-vindas! Se você encontrar melhorias ou correções, sinta-se à vontade para abrir uma "issue" ou enviar um "pull request".
 
 ## Contato -
