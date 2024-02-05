@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="../css/ex07_style.css">  
+</head>
+<title>Boletim Escolar</title>
+<script>
+    alert('Consulte sua média!')
+</script>
+<body>
+    <!--Cabeçalho da página-->
+    <h1>Boletim Escolar</h1> 
+    <h2>Informações acadêmicas do aluno por bimestre</h2>
+    <!--Início do formulário-->
+ <form id="boletimForm"> 
+      Matrícula:<input type="number" placeholder= "nº de matrícula" id="matricula"min= 0 required><br><br>
+    1º Bimestre:<input type="number" placeholder= "nota"id="nota1" min=0 max=10 required><br><br>
+    2º Bimestre:<input type="number" placeholder= "nota" id="nota2" min= 0 max=10 required><br><br>
+    3º Bimestre:<input type="number" placeholder= "nota" id="nota3" min= 0 max=10 required><br><br>
+    <br>
+     <button type="submit">Calcular</button>
+     <br>
+</form>
+<!--Divisão para exigir a média-->
+<div class="'resultado" id="resultado"></div>
+    <script src="../js/script07.js"></script>
+   
+</body>
+</html>
