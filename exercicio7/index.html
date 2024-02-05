@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boletim Escolar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Boletim Escolar</h1>
+    <h2>Digite as informações nessárias para gerar o Boletim Escolar</h2>
+
+    <label for="nomeAluno">Nome do Aluno:</label>
+    <input type="text" id="nomeAluno" placeholder="Nome do Aluno">
+    <br>
+    <label for="idAluno">Número de Identificação:</label>
+    <input type="text" id="idAluno" placeholder="Identificação do Aluno">
+    <br>
+    <label for="nota1">Nota 1º Bimestre:</label>
+    <input type="number" id="nota1" placeholder="Nota do 1º bimestre">
+    <br>
+    <label for="nota2">Nota 2º Bimestre:</label>
+    <input type="number" id="nota2" placeholder="Nota do 2º bimestre">
+    <br>
+    <label for="nota3">Nota 3º Bimestre:</label>
+    <input type="number" id="nota3" placeholder="Nota do 3º bimestre">
+    <br>
+    <button onclick="calcularBoletim()">Calcular Boletim</button>
+    <br>
+    <div id="resultado"></div>
+
+    <script src="js/script07.js"></script>
+    
+</body>
+</html>

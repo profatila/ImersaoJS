@@ -1,0 +1,41 @@
+body{
+    background-color: #B0C4DE;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: black;
+    font-size: 48px;
+}
+
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color:black;
+}
+
+input[type="text"]
+input[type="number"]
+button{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+div{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+        
+}
+
+label{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
