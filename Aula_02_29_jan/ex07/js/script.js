@@ -32,7 +32,7 @@ function Status() {
     
     // Calculando e Exibindo Maior e Menor nota 
     let menor = Math.min(parseInt(n1),parseInt(n2),parseInt(n3))
-    document.getElementById("menor-res").innerHTML = `Maior nota é: ${menor}`
+    document.getElementById("menor-res").innerHTML = `Menor nota é: ${menor}`
 
     let maior = Math.max(parseInt(n1),parseInt(n2),parseInt(n3))
     document.getElementById("maior-res").innerHTML = `Maior nota é: ${maior}`
