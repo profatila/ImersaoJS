@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boletim</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div id="titulo">
+            <h1>Boletim escolar</h1>
+        </div>
+        <div id="entradas">
+            <input type="number" name="" id="identificacao" placeholder="Digite o ID do aluno">
+            <input type="number" name="" id="notaUm" placeholder="Digite a primeira nota">
+            <input type="number" name="" id="notaDois" placeholder="Digite a segunda nota">
+            <input type="number" name="" id="notaTres" placeholder="Digite a terceira nota">
+            <button id="btn"> Mostrar dados </button>
+        </div>
+        <div id="retorno">
+            <div id="listaInfos">
+                <ul>
+                    <li id="numId"></li>
+                    <li id="primeiraNota"></li>
+                    <li id="segundaNota"></li>
+                    <li id="terceiraNota"></li>
+                    <li id="maiorNota"></li>
+                    <li id="menorNota"></li>
+                    <li id="media"></li>
+                    <li id="conceito"></li>
+                </ul>
+            </div>
+            <div id="mensagem">
+                <p id="resultadoFinal"></p>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
