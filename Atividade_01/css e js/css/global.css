@@ -1,0 +1,14 @@
+  @import url('./header.css');
+  @import url('./Tabela.css');
+
+ * {
+    padding: 0 auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+  } 
+  :root {
+    --Fonte: 'Roboto Condensed', sans-serif;
+    --Cor_de_fundo: #12B2C4;
+    --Cor_da_tabela_resultados: #5581FA;
+  }
+  

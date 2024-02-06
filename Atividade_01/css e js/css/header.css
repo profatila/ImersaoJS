@@ -1,0 +1,10 @@
+h1{
+    text-align: center;
+    margin: 15px;
+    background-color: var(--Cor_de_fundo);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+hr{
+    border: 1px solid;
+}
