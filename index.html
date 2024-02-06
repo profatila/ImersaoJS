@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calcular_media_final_e_situacao</title>
+    <script src="exercicio07.js"></script>
+</head>
+<body>
+
+    <h1>Insira 0 Nº de identificação do aluno(de 1 a 40) e suas notas Bimestrais logo abaixo(de 0 a 100):</h1>
+
+    <div class="bloco_input">
+        <input type="number" id="nomeid" placeholder="Digite o Nº de identificação do Aluno">
+        <br>
+        <input type="number" id="n1" placeholder="Digite a nota do 1º Bimestre">
+        <br>
+        <input type="number" id="n2" placeholder="Digite a nota do 2º Bimestre">
+        <br>
+        <input type="number" id="n3" placeholder="Digite a nota do 3º Bimestre">
+        <br>
+    </div>
+
+    <div class="button">
+        <button onclick="exibir_resultado()">Exibir resultados</button>
+    </div>
+
+        <div class="resultado geral">
+            <h1 id="Geral"></h1>
+            
+            <div id="notas">
+                <p id="nota1"></p>
+                <p id="nota2"></p>
+                <p id="nota3"></p>
+            </div>
+
+            <p id="maior"></p>
+            <p id="menor"></p>
+
+            <p id="media"></p>
+            
+            <div class="resultado">
+            <p id="resultado"></p>
+            </div> 
+
+            <div id="finalResult"></div>
+
+        </div>
+
+
+
+
+</body>
+</html>

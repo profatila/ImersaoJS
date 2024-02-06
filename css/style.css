@@ -1,0 +1,14 @@
+body{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bloco_input{
+    padding: 20px;
+}
+
+.bloco_input input{
+    margin-bottom: 20px;    /* cria espaçamento entre as caixas de input, ficando mais separadas */
+    width: 275px;           /* modifica/estica o tamanho da caixa de input */
+}
