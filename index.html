@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media final</title>
+</head>
+<body>
+    <h1>Média final, descubra seu status.</h1>
+    <input type="text" id="nome" placeholder="Digite o nome do aluno">
+    <input type="number" id="id" placeholder="Digite o id do aluno">
+    <br>
+    <input type="number" id="nota1" placeholder="Digite a nota do 1º Bimestre">
+    <input type="number" id="nota2" placeholder="Digite a nota do 2º Bimestre">
+    <input type="number" id="nota3" placeholder="Digite a nota do 3º Bimestre">
+
+    <button onclick="calcular()">Calcular</button>
+
+    <div id="informações"> 
+        <h3 id="infos"></h3>
+        <p id="bim1"></p> 
+        <p id="bim2"></p> 
+        <p id="bim3"></p> 
+    </div>
+    
+    <div id="Resultados">
+        <p id="mai"></p>
+        <p id="men"></p>
+        <p id="mdf"></p>
+        <p id="situ"></p>
+        <p id="con"></p>
+    </div>
+
+    <script src="js/media.js"></script>
+</body>
+</html>
