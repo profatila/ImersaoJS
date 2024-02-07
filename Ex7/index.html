@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Css/estilo01.css">
+    <title>Exercício 7</title>
+</head>
+<body>
+
+    <div id="titulo">
+        <h1>Aplicativo web de notas!!!</h1>
+    </div>
+    
+    <div id="input">
+        <input type="text" id="id" placeholder="Digite o id do aluno">
+        <input type="number" id="nota1" placeholder="Digite a nota do 1ºBim">
+        <input type="number" id="nota2" placeholder="Digite a nota do 2ºBim">
+        <input type="number" id="nota3" placeholder="Digite a nota do 3ºBim">
+    </div>
+
+    <div id="button">
+        <button onclick= boletim()>Gerar Boletim</button>
+    </div>
+
+        <div id="conceitos">
+            <ul>
+                <li>Média maior ou igual 90 conceito: A.</li>
+                <li>Média maior igual a 75 menor que 90, conceito: B.</li>
+                <li>Média maior igual a 60 menor que 75, conceito: C.</li>
+                <li>Média maior igual a 40 menor que 60, conceito: D.</li>
+                <li>Média menor que 40, conceito: E.</li>
+            </ul>
+        </div>
+    <div id="info">
+        <p id="id2"></p>
+        <p id="1bim"></p>
+        <p id="2bim"></p>
+        <p id="3bim"></p>
+        <p id="maiorN"></p>
+        <p id="menorN"></p>
+        <p id="media"></p>
+        <p id="conceito"></p>
+    </div>
+
+    <script src="/js/script02.js"></script>
+    
+</body>
+</html>
