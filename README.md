@@ -1,6 +1,6 @@
 <h1>Boletim Js</h1>
 
-<br><h3>Pagina feita no curso tècnico do Senai para treinar a linguagem Java Script</h3>
+<br><h3>Pagina feita no curso técnico do Senai para treinar a linguagem Java Script</h3>
 
 
 <br> <img src="https://github.com/Miguel1DM/Cartao-de-visitas/blob/main/img/alfinete.png" width = "30px"/>**página hospedada no Netlify** [Netlify](https://boletim-js.netlify.app/)
