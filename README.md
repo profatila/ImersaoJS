@@ -1,4 +1,4 @@
-<h1Boletim Js</h1>
+<h1>Boletim Js</h1>
 
 <br><h3>Pagina feita no curso tècnico do Senai para treinar a linguagem Java Script</h3>
 
