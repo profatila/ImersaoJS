@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 class="title">PROGRAMA DE NOTAS</h1>
+    
+    <main>
+        <section class="box_input ">
+            <input type="text"   id="name" class="inputs" placeholder="Digite o nome do Aluno">
+            <input type="number" id="sem1" class="inputs" placeholder="Digite a nota do primeiro semestre do Aluno">
+            <input type="number" id="sem2" class="inputs" placeholder="Digite a nota do segundo semestre do Aluno">
+            <input type="number" id="sem3" class="inputs" placeholder="Digite a nota do terceiro semestre do Aluno">
+            <button onclick="calcularNota()">Calcular</button>
+        </section>
+
+        <div class="container__apr ocultar">
+
+            <div class="notas">
+                <h1 class="apresentacao">Nome do Aluno:</h1>
+                    <h2 class="your-notas">Suas notas são:</h2>
+                        <ul  style="list-style: none" class="list">
+                            <li class="nota1">Primeira semestre: </li>
+                            <li class="nota2">Segundo semestre: </li>
+                            <li class="nota3">Terceiro semestre: </li>
+                        </ul>
+
+                    <h2 class="your_maior">Sua maior nota foi:</h2>
+                        <h3 class="maior"></h3>
+
+                    <h2>sua média de notas é:</h2>
+                        <h3 id="media"></h3>
+                        
+                    <h2 class="situation">Situação:</h2>
+                        <h3 class="situacao"></h3>
+            </div>           
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
