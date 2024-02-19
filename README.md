@@ -1,2 +1,2 @@
 # João da Silva Campos - 2 DM
-- Entrega do exercício 07 da matéria de PWFE (Programação Web Front-End) no SENAI Suíço-Brasileiro !
+- Local de entrega de atividades do SENAI Suíço-Brasileiro da turma 2DM
