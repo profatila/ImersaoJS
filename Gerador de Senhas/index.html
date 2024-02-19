@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Gerador de Senhas</title>
+</head>
+<body>
+    <div id="titulo">
+        <h1>Gerador de Senhas</h1>
+    </div>
+    <br>
+
+    <div id="nsenhas">
+        <label>Quantidade de senhas</label>
+        <br>
+	    <input type="range" value="0" min="1" max="10"
+        oninput="valor1.value=value" onchange="display.value=value">
+        <input type="text" id="valor1" value="0" readonly>
+    </div>
+
+    <br>
+
+    <div id="numchar">
+        <label>Quantidade de caracteres</label>
+        <br>
+        <input type="range" value="0" max="20" min="1"
+        oninput="valor2.value=value" onchange="display.value=value">
+        <input type="text" id="valor2" value="0" readonly>
+    </div>
+    <br>
+    
+    <div id="cbnum">
+        <input type="checkbox">
+        <label>Números</label>
+    </div>
+        
+    <div id="cbmaiu">
+        <input type="checkbox">
+        <label>Letras maiúsculas</label>
+    </div>
+
+
+    <div id="cbcharE">
+        <input type="checkbox">
+        <label>Caracteres especiais</label>
+    </div>
+        <br>
+    <div id="btgerar">
+        <button>Gerar senhas</button>
+    </div>
+        <br>
+    <div id="reset">
+        <button>Limpar</button>
+    </div>
+    <br>
+
+    <textarea id="blocoTexto" cols="50" rows="10" readonly></textarea>
+    
+    <script src="JS/script.js"></script>
+</body>
+</html>
